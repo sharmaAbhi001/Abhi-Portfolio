@@ -5,7 +5,6 @@ import closeIcon from "/assets/cross-close-svgrepo-com.svg";
 import homeRight from "/assets/home-right.png";
 import rightArrow from "/assets/right-arrow-svgrepo-com.svg";
 
-
 const AboutAnimation = () => {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -29,7 +28,7 @@ const AboutAnimation = () => {
               initial={{ opacity: 0, scale: 0.5, y: 50 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.5, y: 50 }}
-              className="w-[1200px] h-[600px] bg-gray-600 p-6 rounded-xl shadow-xl z-50 fixed top-1 left-[10%] transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center text-gray-900"
+              className=" md:ml-0 w-[460px] md:w-[1200px] h-[600px] bg-gray-600 p-6 rounded-xl shadow-xl z-50 md:fixed relative top-1 left-[10%] transform -translate-x-1/2 -translate-y-1/2 flex md:flex-col items-center text-gray-900"
             >
               <button
                 className="absolute top-4 right-4 w-6 h-6 bg-gray-800 p-1 rounded-full text-white"
@@ -45,16 +44,24 @@ const AboutAnimation = () => {
                     About Me
                   </h2>
                   <p className="text-white">
-                    Hi, my name is Abhishek Sharma, a passionate MERN Stack Developer with a strong enthusiasm for building scalable and efficient web applications. I specialize in MongoDB, Express.js, React.js, and Node.js, creating seamless full-stack applications with great user experiences.
+                    Hi, my name is Abhishek Sharma, a passionate MERN Stack
+                    Developer with a strong enthusiasm for building scalable and
+                    efficient web applications. I specialize in MongoDB,
+                    Express.js, React.js, and Node.js, creating seamless
+                    full-stack applications with great user experiences.
                   </p>
-                  <div className="mt-4">
+                  <div className="mt-4 hidden md:block">
                     <Skills />
                   </div>
                 </div>
 
                 {/* Right Image */}
-                <div className="w-1/2 flex items-center justify-center">
-                  <img src={homeRight} alt="Home Right" className="max-w-full h-auto rounded-lg shadow-lg" />
+                <div className="  md:w-1/2 flex items-center justify-center">
+                  <img
+                    src={homeRight}
+                    alt="Home Right"
+                    className=" w-36 md:max-w-full h-auto rounded-lg shadow-lg"
+                  />
                 </div>
               </div>
             </motion.div>
@@ -69,7 +76,9 @@ const AboutAnimation = () => {
         whileTap={{ scale: 0.95 }}
       >
         {!isVisible && "About me"}
-        {!isVisible && <img src={rightArrow} className="w-4 ml-2" alt="Arrow" />}
+        {!isVisible && (
+          <img src={rightArrow} className="w-4 ml-2" alt="Arrow" />
+        )}
       </motion.button>
     </div>
   );
