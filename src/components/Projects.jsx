@@ -7,7 +7,7 @@ const Projects = () => {
 
   return (
     <div className="p-10 bg-black min-h-screen">
-  <div className="w-10/12 mx-auto">
+  <div className=" w-full md:w-10/12 mx-auto">
   <h1 className="text-3xl text-white font-bold text-center mb-6">My Projects</h1>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-3">  
       {projects.map((project) => (

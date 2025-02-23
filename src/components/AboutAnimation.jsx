@@ -28,7 +28,7 @@ const AboutAnimation = () => {
               initial={{ opacity: 0, scale: 0.5, y: 50 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.5, y: 50 }}
-              className=" md:ml-0 w-[460px] md:w-[1200px] h-[600px] bg-gray-600 p-6 rounded-xl shadow-xl z-50 md:fixed relative top-1 left-[10%] transform -translate-x-1/2 -translate-y-1/2 flex md:flex-col items-center text-gray-900"
+              className=" md:ml-0 w-[440px] md:w-[1200px] h-[600px] bg-gray-600 p-6 rounded-xl shadow-xl z-50 md:fixed relative top-1 left-[10%] transform -translate-x-1/2 -translate-y-1/2 flex md:flex-col items-center text-gray-900"
             >
               <button
                 className="absolute top-4 right-4 w-6 h-6 bg-gray-800 p-1 rounded-full text-white"
