@@ -21,7 +21,7 @@ const projects = [
       description: "A fully responsive personal portfolio with animations and smooth scrolling.",
       technologies: ["React", "Tailwind CSS", "Framer Motion","Three fiber"],
       image: "/assets/Screenshot 2025-02-23 002558.png",
-      link: "https://your-portfolio.com"
+      link: "https://abhi-portfolio-r2fi.onrender.com/"
     },
     {
       id: 4,
