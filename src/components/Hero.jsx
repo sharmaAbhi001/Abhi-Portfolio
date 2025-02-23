@@ -23,10 +23,10 @@ const Hero = () => {
         </div>
         <div className="flex space-x-6">
         <a href="https://github.com/sharmaAbhi001" target="_blank" rel="noopener noreferrer">
-          <img src="src/assets/github-icon-1-logo-svgrepo-com.svg" className="w-14 bg-blue-700 rounded-full p-2" alt="GitHub" />
+          <img src="/assets/github-icon-1-logo-svgrepo-com.svg" className="w-14 bg-blue-700 rounded-full p-2" alt="GitHub" />
         </a>
         <a href="https://www.linkedin.com/in/codeburnerabhi/" target="_blank" rel="noopener noreferrer">
-          <img src="src/assets/icons8-linkedin.svg" className="w-14 bg-blue-700 rounded-full p-2" alt="LinkedIn" />
+          <img src="/assets/icons8-linkedin.svg" className="w-14 bg-blue-700 rounded-full p-2" alt="LinkedIn" />
         </a>
       </div>
       </div>
@@ -34,7 +34,7 @@ const Hero = () => {
       {/* Right Section - Image */}
       <div className="w-full md:w-1/2 flex justify-center mt-6 md:mt-0">
         <img 
-          src="src/assets/name_log-removebg-preview.png" 
+          src="/assets/name_log-removebg-preview.png" 
           className="max-w-[200px] md:max-w-[300px] lg:max-w-[400px] h-auto"
           alt="Logo"
         />

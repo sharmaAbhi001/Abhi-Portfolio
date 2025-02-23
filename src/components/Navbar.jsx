@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-around items-center py-4 px-6">
         
         {/* Logo */}
-        <div className="w-14 font-bold"><img src="src/assets/name_log-removebg-preview.png" alt="" /></div>
+        <div className="w-14 font-bold"><img src="/assets/name_log-removebg-preview.png" alt="" /></div>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-8 text-lg">
