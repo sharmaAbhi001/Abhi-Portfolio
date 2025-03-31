@@ -56,11 +56,11 @@ const AboutAnimation = () => {
                 </div>
 
                 {/* Right Image */}
-                <div className="  md:w-1/2 flex items-center justify-center">
+                <div className="md:w-1/2 flex items-center justify-center">
                   <img
                     src={homeRight}
                     alt="Home Right"
-                    className=" w-36 md:max-w-full h-auto rounded-lg shadow-lg"
+                    className=" w-36 md:w-full  h-auto rounded-lg shadow-lg"
                   />
                 </div>
               </div>
