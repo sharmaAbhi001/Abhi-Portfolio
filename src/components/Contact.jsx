@@ -18,9 +18,11 @@ function Contact() {
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         {
-          from_name: formData.name,
-          from_email: formData.email,
-          message: formData.message,
+          to_name: "Abhishek Sharma",  
+          from_name: formData.name,    
+          from_email: formData.email,  
+          reply_to: formData.email, 
+          message: formData.message,   
         },
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       );
