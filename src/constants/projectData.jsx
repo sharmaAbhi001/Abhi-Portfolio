@@ -5,7 +5,7 @@ const projects = [
       description: "A full-stack MERN Dev Tinder is a developer-centric platform designed to connect tech enthusiasts, coders, and developers worldwide",
       technologies: ["React","Redux", "Node.js", "Express", "MongoDB","Socket.IO"],
       image: "/assets/Screenshot 2025-02-23 001230.png",
-      link: "https://connectkaro-alpha.vercel.app/login"
+      link: "https://connect.codecampus.in/login"
     },
     {
       id: 2,
